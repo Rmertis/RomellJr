@@ -83,10 +83,10 @@ private:
 	Joystick *Lstick;
 
 	//=== 4motors ===
-		CanTalonSRX *fL;
-		CanTalonSRX *fR;
-		CanTalonSRX *bL;
-		CanTalonSRX *bR;
+		CANTalon *fL;
+		CANTalon *fR;
+		CANTalon *bL;
+		CANTalon *bR;
 
 };
 
